@@ -31,17 +31,17 @@ Then install one solver at least.
 
 Then install openTEPES writing this in an anaconda console
 
-- pip install openTEPES
+`pip install openTEPES`
 
 ## Run openTEPES
 Create your case study adapting one of the several case studies provided with the model in the folder where you installed openTEPES to your system.
 
 To run openTEPES introduce this in an anaconda console
 
-- openTEPES_Main 
+`openTEPES_Main`
 
 then you will be asked to select the folder where the case study is, the name of the case, the solver, results and log information
 
 
 ## 📬 Contact
-👉 [Andrés Ramos](andres.ramos@comillas.edu) 
+👉 [Andrés Ramos](https://opentepes.readthedocs.io/en/latest/ContactUs.html) 
