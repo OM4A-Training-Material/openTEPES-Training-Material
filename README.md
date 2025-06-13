@@ -1,47 +1,74 @@
-# openTEPES
+# ⚡ openTEPES
 
-Here you will find everything to install and run openTEPES:
-- [openTEPES user guide](https://opentepes.readthedocs.io/en/latest/index.html): these web pages include the following sections:
+## 📚 Documentation & Training Material
+
+Here you will find everything you need to install and run **openTEPES**:
+
+- 📖 [**User Guide**](https://opentepes.readthedocs.io/en/latest/index.html): This web manual includes detailed sections on:
+
   - Introduction
-  - Electric System Input Data
-  - Hydropower System Input Data
-  - Hydrogen System Input Data
-  - Heat System Input Data
+  - Electric, Hydropower, Hydrogen, and Heat System Input Data
   - Flow-Based Market Coupling Method
   - Output Results
   - Mathematical Formulation
-  - Research Projects
-  - Publications
+  - Research Projects & Publications
   - Download & Installation
   - Questions & Answers (Q&A)
-  - Contact Us
+  - Contact Information
 
-- [openTEPES Installation](https://github.com/OM4A-Training-Material/openTEPES-Training-Material/openTEPES_InstallationGuide.pdf): this document contains the openTEPES installation guide
-- [openTEPES Summary](https://github.com/OM4A-Training-Material/openTEPES-Training-Material/openTEPES_Summary.pdf): this presentation provides a general overview of the openTEPES features
-- [openTEPES Résumé](https://github.com/OM4A-Training-Material/openTEPES-Training-Material/openTEPES_Resume.pdf): this presentation provides a general overview of the openTEPES features in French
-- [openTEPES Q&A](https://github.com/OM4A-Training-Material/openTEPES-Training-Material/openTEPES_QuestionsAndAnswers.pdf): this document summarizes a short set of questions and answers that may help you when running openTEPES.
+- 🛠️ [**Installation Guide (PDF)**](https://github.com/OM4A-Training-Material/openTEPES-Training-Material/openTEPES_InstallationGuide.pdf)
 
-The openTEPES model represents a decision support system for defining the integrated generation, storage, and transmission resource planning (IRP, GEP+SEP+TEP) of a large-scale electric system at the tactical level (i.e., time horizons of 10-20 years), defined as a set of generation, storage, and (electricity, hydrogen, and heat) networks dynamic investment decisions for several future years. The user pre-defines the expansion candidates, so the model determines the optimal decisions among those specified by the user.
+- 🧾 [**Summary Presentation**](https://github.com/OM4A-Training-Material/openTEPES-Training-Material/openTEPES_Summary.pdf)
 
+- 🇫🇷 [**Résumé in French**](https://github.com/OM4A-Training-Material/openTEPES-Training-Material/openTEPES_Resume.pdf)
 
-## Install openTEPES
-We recommend to install miniconda3 wich contains python and other set of packages.
+- ❓ [**Q&A Summary**](https://github.com/OM4A-Training-Material/openTEPES-Training-Material/openTEPES_QuestionsAndAnswers.pdf)
 
-Then install one solver at least.
+---
 
-Then install openTEPES writing this in an anaconda console
+## 🧠 Model Overview
 
-`pip install openTEPES`
+The **openTEPES** model serves as a decision support system for integrated resource planning (IRP), combining:
 
-## Run openTEPES
-Create your case study adapting one of the several case studies provided with the model in the folder where you installed openTEPES to your system.
+- Generation Expansion Planning (GEP)
+- Storage Expansion Planning (SEP)
+- Transmission Expansion Planning (TEP)
 
-To run openTEPES introduce this in an anaconda console
+It optimizes generation, storage, and transmission investments over tactical time horizons (10–20 years), including electricity, hydrogen, and heat networks. Users predefine candidate projects, and the model identifies optimal investment decisions.
 
-`openTEPES_Main`
+---
 
-then you will be asked to select the folder where the case study is, the name of the case, the solver, results and log information
+## 🛠️ Install openTEPES
 
+To install **openTEPES**, follow these steps:
+
+1. Install [**Miniconda3**](https://docs.conda.io/en/latest/miniconda.html), which includes Python and other essential packages.
+2. Install at least one supported solver (e.g., Gurobi, HiGHS).
+3. In the Anaconda terminal, install openTEPES by running:
+
+```bash
+pip install openTEPES
+```
+
+---
+
+## 🚀 How to Run openTEPES
+
+1. Create your custom case study by adapting one of the provided examples (included in the model directory).
+2. Open the Anaconda console and run:
+
+```bash
+openTEPES_Main
+```
+
+3. You will be prompted to:
+   - Select the folder containing your case study
+   - Name the case
+   - Choose the solver
+   - Define result and log file outputs
+
+---
 
 ## 📬 Contact
-👉 [Andrés Ramos](https://opentepes.readthedocs.io/en/latest/ContactUs.html) 
+
+👉 For questions or feedback, please refer to the contact section in the [User Guide](https://opentepes.readthedocs.io/en/latest/index.html#contact-us).
