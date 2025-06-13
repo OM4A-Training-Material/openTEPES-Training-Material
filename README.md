@@ -67,6 +67,16 @@ openTEPES_Main
    - Choose the solver
    - Define result and log file outputs
 
+## 🎥 Step-by-step Video Support
+
+You can find all tutorials on <a href="https://www.youtube.com/playlist?list=PLHN93NPePQ1KDpQpxvlpPTeDZPdePdHIL" target="_blank" style="text-decoration: none;">
+  <img src="https://cdn.simpleicons.org/youtube/FF0000/16" alt="YouTube" height="16" style="vertical-align: text-bottom; margin-left: 4px;">
+</a>
+
+## ❓ Need Help?
+
+Check our [Questions & Answers](docs/faq.md) page for common issues and guidance.
+
 ---
 
 ## 📬 Contact
