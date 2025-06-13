@@ -18,11 +18,11 @@ Here you will find everything you need to install and run **openTEPES**:
 
 - 🛠️ [**Installation Guide (PDF)**](openTEPES_InstallationGuide.pdf)
 
-- 🧾 [**Summary Presentation**](https://github.com/OM4A-Training-Material/openTEPES-Training-Material/openTEPES_Summary.pdf)
+- 🧾 [**Summary Presentation**](openTEPES_Summary.pdf)
 
-- 🇫🇷 [**Résumé in French**](https://github.com/OM4A-Training-Material/openTEPES-Training-Material/openTEPES_Resume.pdf)
+- 🇫🇷 [**Résumé in French**](openTEPES_Resume.pdf)
 
-- ❓ [**Q&A Summary**](https://github.com/OM4A-Training-Material/openTEPES-Training-Material/openTEPES_QuestionsAndAnswers.pdf)
+- ❓ [**Q&A Summary**](openTEPES_QuestionsAndAnswers.pdf)
 
 ---
 
